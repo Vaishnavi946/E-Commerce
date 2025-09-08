@@ -1,0 +1,53 @@
+
+
+.container {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.toggle-btns {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.toggle-btns button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.toggle-btns button.active {
+  background: #333;
+  color: white;
+}
+
+.form input {
+  width: 90%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+.form button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.small-text a {
+  color: #333;
+  cursor: pointer;
+  text-decoration: underline;
+}
