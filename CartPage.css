@@ -1,0 +1,26 @@
+.cart-summary {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cart-summary button {
+  margin: 0 8px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cart-summary button:first-child {
+  background: #e63946;
+  color: white;
+}
+
+.cart-summary button:last-child {
+  background: #2a9d8f;
+  color: white;
+}

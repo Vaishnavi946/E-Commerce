@@ -1,0 +1,25 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;             /* full width */
+  background: #6a0dad;     /* purple background */
+  color: #fff;             /* white text */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.header nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header nav a:hover {
+  color: #f3c6ff;          /* lighter purple on hover */
+}

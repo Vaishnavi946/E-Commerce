@@ -1,0 +1,23 @@
+.footer {
+  background: #4b0082; /* dark purple */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  margin: 0;
+  font-size: 14px;
+}

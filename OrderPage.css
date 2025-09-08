@@ -1,0 +1,84 @@
+.main-page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #4f46e5; /* Purple background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.order-container {
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff; /* Form background white */
+  color: #000;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-container h2 {
+  margin-bottom: 20px;
+}
+
+.order-form .input-group {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-form input,
+.order-form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+.order-form button {
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.order-form button:hover {
+  background-color: #6366f1;
+}
+
+.order-success {
+  text-align: center;
+  background-color: #4f46e5; /* Purple background */
+  color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.order-success button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: #fff;
+  color: #4f46e5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-success button:hover {
+  background-color: #6366f1;
+  color: #fff;
+}
